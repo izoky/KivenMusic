@@ -95,9 +95,9 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/Shayri_Music_Lovers) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[قناة السورس](https://t.me/kivenbots) ** التشغيل {count} الوقت**\n\n"
                     else:
-                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
+                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** التشغيل {count} الوقت**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
                 return videoid, msg
 
@@ -284,8 +284,8 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/125f531d44a9999290cac.jpg",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ مرحبا انا اعمل\n✪ شكرا لأستخدامك لي 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ المالك    : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/a37aa)\n┣★ التحديثات › : [مساعدة كيڤنع](https://t.me/kivenbots)┓\n┣★ دخول › : [قناة السورس](https://t.me/YYN4Y)\n┗━━━━━━━━━━━━━━━━━┛\n\n يمكنكم دعمي من خلال  [حسابي الرسمي](https://t.me/a37aa) سأكون سعيداً بدعمكم لي واستمرار الخدمة ☕...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
+        photo=f"https://telegra.ph/file/28217b87897198f7bcb5a.jpg",
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ مرحبا انا اعمل\n✪ شكرا لأستخدامك لي 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ المالك    : [عبدالله] (https://t.me/aa37a)\n┣★ التحديثات › : [مساعدة كيڤن] (https://t.me/kivenbots)┓\n┣★ دخول › : [قناة السورس](https://t.me/YYN4Y)\n┗━━━━━━━━━━━━━━━━━┛\n\n يمكنكم دعمي من خلال  [حسابي الرسمي](https://t.me/a37aa) سأكون سعيداً بدعمكم لي واستمرار الخدمة ☕...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 شات كيڤن 💮", url=f"https://t.me/KKKT6")]]
