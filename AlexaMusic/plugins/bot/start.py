@@ -285,7 +285,7 @@ async def welcome(client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/28217b87897198f7bcb5a.jpg",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ مرحبا انا اعمل\n✪ شكرا لأستخدامك لي 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ المالك    : [عبدالله(https://t.me/aa37a)\n┣★ التحديثات › : [مساعدة كيڤن](https://t.me/kivenbots)┓\n┣★ دخول › : [قناة السورس](https://t.me/YYN4Y)\n┗━━━━━━━━━━━━━━━━━┛\n\n يمكنكم دعمي من خلال  [حسابي الرسمي](https://t.me/aa37a) سأكون سعيداً بدعمكم لي واستمرار الخدمة ☕...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ مرحبا انا اعمل\n✪ شكرا لأستخدامك لي 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★] [المالك: [عبدالله(https://t.me/aa37a)\n ┣★ التحديثات › : [مساعدة كيڤن](https://t.me/kivenbots)┓\n┣★ دخول › : [قناة السورس](https://t.me/YYN4Y)\n┗━━━━━━━━━━━━━━━━━┛\n\n يمكنكم دعمي من خلال  [حسابي الرسمي](https://t.me/aa37a) سأكون سعيداً بدعمكم لي واستمرار الخدمة ☕...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 شات كيڤن 💮", url=f"https://t.me/KKKT6")]]
