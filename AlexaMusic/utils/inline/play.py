@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=" المالك 💞", url=f"https://t.me/a37aa"
+                text=" المالك 💞", url=f"https://t.me/aa37a"
             ),
         ],
         [
@@ -104,7 +104,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="ᴀʟᴇxᴀ ᴄʜᴀᴛ 💌", url=f"https://t.me/Alexa_Help"),
+            InlineKeyboardButton(text=" - نوفّمبر .💌", url=f"https://t.me/YYN4Y"),
         ],
     ]
     return buttons
