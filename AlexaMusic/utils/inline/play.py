@@ -78,7 +78,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["التحكم"],
+                text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(text="القناة 💌", url=f"https://t.me/j64jj"),
