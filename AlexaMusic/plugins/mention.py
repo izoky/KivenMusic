@@ -40,7 +40,7 @@ async def start(event):
             [
                 Button.url(
                     "☀︎︎️اضغط هنا لأضافتي☀︎︎",
-                    "https://t.me/AA7sbot?startgroup=true",
+                    "https://t.me/izoky2bot?startgroup=true",
                 ),
             ],
             [
